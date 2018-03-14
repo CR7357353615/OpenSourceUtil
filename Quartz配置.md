@@ -1,4 +1,4 @@
-# Quartz
+# Quartz配置
 ---
 ### Quartz的配置格式如下：
 
