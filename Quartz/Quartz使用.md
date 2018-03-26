@@ -7,7 +7,7 @@
 * Q:在Job中注入service，不能直接调用service的方法
 * A：定义一个静态变量，并且在构造方法结束前将invoiceInJob指向this引用。，调用service时以“变量.service.method”的形式调用。
 
-示例：
+示例111：
 ```java
 @Component
 public class InvoiceInJob extends QuartzJobBean {
