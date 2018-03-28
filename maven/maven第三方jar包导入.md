@@ -6,3 +6,4 @@ mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> -DartifactId
 packaging是jar或war
 
 参考网址：https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html
+ 
