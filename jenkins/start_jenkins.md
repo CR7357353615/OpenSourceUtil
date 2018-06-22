@@ -27,3 +27,10 @@
 
 ## 传递依赖问题
 如果项目pom中依赖的jarA包依赖另一个jarB包，如果不能依赖，那么需要把jarA包的<dependency>放入maven库的的对应包的pom中即可。
+
+## 其他问题
+shell脚本权限问题：参考[文章](https://blog.csdn.net/SkyeBeFreeman/article/details/78116113)
+在Jenkins宿主服务器上运行如下命令 
+$ sudo visudo
+在文件的末尾加上一行 
+jenkins ALL=(ALL) NOPASSWD: ALL
